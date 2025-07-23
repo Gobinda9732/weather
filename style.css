@@ -82,6 +82,7 @@ body {
   min-height: 100%;
   padding-top: 20px;
   padding-left: 20px;
+  overflow: hidden;
 }
 
 .this-week {
@@ -193,10 +194,9 @@ body {
   }
 }
 
-
 .this-week {
   display: flex;
-  /* overflow-x: auto; */
+  overflow-x: auto;
   height: 500px;
 
   gap: 10px;
@@ -214,4 +214,5 @@ body {
   text-align: center;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
 }
